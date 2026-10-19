@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="alternate icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="apple-touch-icon" href="/favicon.svg" />
+    <meta name="theme-color" content="#ea580c" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Primary SEO Meta Tags -->
+    <title>StroitX — India's Verified Construction Marketplace</title>
+    <meta name="description" content="StroitX connects homeowners with KYC-verified contractors, architects & interior designers across India. Post projects, compare quotes, and build with milestone-based payment protection." />
+    <meta name="keywords" content="construction marketplace India, verified contractors, architects, interior designers, home renovation, building professionals, construction quotes, StroitX" />
+    <link rel="canonical" href="https://stroitx.com/" />
+    <meta name="robots" content="index, follow" />
+    <meta name="author" content="StroitX Technologies Pvt. Ltd." />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://stroitx.com/" />
+    <meta property="og:title" content="StroitX — India's Verified Construction Marketplace" />
+    <meta property="og:description" content="Find trusted, KYC-verified contractors & architects. Post projects, compare line-by-line quotes, and manage milestones with payment protection." />
+    <meta property="og:image" content="https://stroitx.com/og-cover.png" />
+    <meta property="og:site_name" content="StroitX" />
+    <meta property="og:locale" content="en_IN" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="https://stroitx.com/" />
+    <meta name="twitter:title" content="StroitX — India's Verified Construction Marketplace" />
+    <meta name="twitter:description" content="Find trusted, KYC-verified contractors & architects. Post projects, compare quotes, and build with milestone-based transparency." />
+    <meta name="twitter:image" content="https://stroitx.com/og-cover.png" />
+
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Organization",
+          "@id": "https://stroitx.com/#organization",
+          "name": "StroitX Technologies Pvt. Ltd.",
+          "url": "https://stroitx.com",
+          "logo": "https://stroitx.com/favicon.svg",
+          "description": "India's premier verified construction marketplace connecting homeowners with trusted professionals.",
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "telephone": "+91-92725-97354",
+            "email": "helpstroitx@outlook.com",
+            "contactType": "Customer Support",
+            "areaServed": "IN",
+            "availableLanguage": ["English", "Hindi"]
+          },
+          "sameAs": []
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://stroitx.com/#website",
+          "url": "https://stroitx.com",
+          "name": "StroitX",
+          "publisher": { "@id": "https://stroitx.com/#organization" },
+          "potentialAction": {
+            "@type": "SearchAction",
+            "target": "https://stroitx.com/homeowner/find-professionals?q={search_term_string}",
+            "query-input": "required name=search_term_string"
+          }
+        },
+        {
+          "@type": "ProfessionalService",
+          "@id": "https://stroitx.com/#service",
+          "name": "StroitX Construction Marketplace",
+          "description": "Verified construction professionals including contractors, architects, interior designers, and civil engineers available for residential and commercial projects across India.",
+          "url": "https://stroitx.com",
+          "provider": { "@id": "https://stroitx.com/#organization" },
+          "areaServed": {
+            "@type": "Country",
+            "name": "India"
+          },
+          "serviceType": ["Construction", "Renovation", "Interior Design", "Architecture", "Civil Engineering"]
+        }
+      ]
+    }
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Razorpay Checkout Script -->
+    <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+  </head>
+  <body class="bg-slate-50 text-slate-900 font-sans antialiased selection:bg-orange-500 selection:text-white">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

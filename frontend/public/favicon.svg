@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <defs>
+    <linearGradient id="stroitx-orange" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ea580c" />
+      <stop offset="100%" stop-color="#c2410c" />
+    </linearGradient>
+  </defs>
+  <!-- Main Brand Orange Rounded Square Matching Navbar bg-orange-600 -->
+  <rect width="128" height="128" rx="28" fill="url(#stroitx-orange)" />
+  
+  <!-- Exact Lucide HardHat Icon from StroitX Main Navbar Component -->
+  <g transform="translate(20, 20) scale(3.666667)" fill="none" stroke="#ffffff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Visor rim -->
+    <path d="M2 18a1 1 0 0 0 1 1h18a1 1 0 0 0 1-1v-2a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v2z" />
+    <!-- Ridge / Crest -->
+    <path d="M10 10V5a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v5" />
+    <!-- Left helmet dome -->
+    <path d="M4 15v-3a6 6 0 0 1 6-6h0" />
+    <!-- Right helmet dome -->
+    <path d="M14 6h0a6 6 0 0 1 6 6v3" />
+  </g>
+</svg>

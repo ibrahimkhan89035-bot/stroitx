@@ -1,0 +1,25 @@
+User-agent: *
+Allow: /
+Allow: /how-it-works
+Allow: /contractor-vs-architect
+Allow: /construction-cost-guide
+Allow: /verified-professionals
+Allow: /gateway
+Allow: /login
+Allow: /signup
+Allow: /legal/
+
+# Disallow private user sessions and authenticated workflows
+Disallow: /api/
+Disallow: /admin/
+Disallow: /homeowner/
+Disallow: /professional/
+Disallow: /workspace/
+Disallow: /profile
+Disallow: /settings
+Disallow: /messages
+Disallow: /notifications
+
+# Search Engine Crawl Directives
+Host: https://stroitx.com
+Sitemap: https://stroitx.com/sitemap.xml
